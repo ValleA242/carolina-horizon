@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" data-overlay="box" data-font="condensed" data-gold="medium" data-texture="on">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Palmetto Construction — Excavation · Grading · Outdoor Solutions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Zilla+Slab:wght@400;500;600;700&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=4">
+<script src="image-slot.js"></script>
+</head>
+<body>
+
+<!-- ============ TOP UTILITY BAR ============ -->
+<div class="topbar">
+  <div class="wrap">
+    <div class="item"><i data-lucide="map-pin"></i><span><b>Address:</b> 4120 Highway 17 Bypass, Myrtle Beach, SC 29577</span></div>
+    <div class="item"><i data-lucide="clock"></i><span><b>Hours:</b> Mon–Fri 7am–6pm</span></div>
+    <div class="item"><i data-lucide="phone-call"></i><span><b>Call us today!</b> <a class="phone" href="tel:+18435550199">(843) 555-0199</a></span></div>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Palmetto Construction home">
+      <img src="assets/palmetto-logo.png" alt="Palmetto Construction logo">
+      <span class="bt"><b>Palmetto</b><span>Construction</span></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#top">Home</a>
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#company">About</a>
+      <a class="btn btn-brick nav-cta" href="#quote">Request a Quote</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle menu"><i data-lucide="menu"></i></button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero tex tex-dark" id="top" data-screen-label="Hero">
+  <div class="hero-slides" id="heroSlides">
+    <div class="hero-slide active"><image-slot id="hero-1" placeholder="Drop a jobsite / excavation photo" fit="cover"></image-slot></div>
+    <div class="hero-slide"><image-slot id="hero-2" placeholder="Drop a grading / land-clearing photo" fit="cover"></image-slot></div>
+    <div class="hero-slide"><image-slot id="hero-3" placeholder="Drop an outdoor-solutions photo" fit="cover"></image-slot></div>
+  </div>
+  <div class="hero-scrim"></div>
+  <button class="hero-arrow prev" id="heroPrev" aria-label="Previous"><i data-lucide="chevron-left"></i></button>
+  <button class="hero-arrow next" id="heroNext" aria-label="Next"><i data-lucide="chevron-right"></i></button>
+  <div class="wrap">
+    <div class="hero-card">
+      <div class="stars" aria-label="5 star rated">
+        <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+      </div>
+      <h1>Built On <em>Solid Ground</em></h1>
+      <p>From the first cut to the final grade, Palmetto Construction delivers heavy-duty excavation, precision grading, and outdoor solutions across Myrtle Beach and the Grand Strand. Locally owned. Built to last.</p>
+      <div class="hero-actions">
+        <a class="btn btn-brick" href="tel:+18435550199"><i data-lucide="phone"></i> Call (843) 555-0199</a>
+        <a class="btn btn-ghost" href="#quote"><i data-lucide="file-text"></i> Request a Free Quote</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-dots" id="heroDots"></div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<div class="trust-strip">
+  <div class="wrap">
+    <div class="ts"><i data-lucide="shield-check"></i> Licensed &amp; Insured</div>
+    <div class="ts"><i data-lucide="map-pin"></i> Locally Owned</div>
+    <div class="ts"><i data-lucide="badge-check"></i> Free Estimates</div>
+    <div class="ts"><i data-lucide="truck"></i> Owned Equipment Fleet</div>
+  </div>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services" data-screen-label="Services">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">What We Do</p>
+      <h2 class="section-title">Services Provided</h2>
+      <hr class="title-rule">
+      <p>Three core capabilities, one accountable crew. We handle the dirt work most other contractors won't touch — and finish the outdoor spaces homeowners actually enjoy.</p>
+    </div>
+
+    <div class="core-grid">
+      <article class="core-card">
+        <div class="core-media">
+          <image-slot id="svc-excavation" placeholder="Excavation photo" fit="cover"></image-slot>
+          <span class="core-num">01</span>
+          <span class="core-badge"><i data-lucide="shovel"></i></span>
+        </div>
+        <div class="core-body">
+          <h3>Excavation</h3>
+          <p>Dig it right the first time. Foundation digs, utility trenching, and full site prep handled with our own heavy equipment.</p>
+          <ul class="core-list">
+            <li><i data-lucide="chevron-right"></i> Land &amp; lot clearing</li>
+            <li><i data-lucide="chevron-right"></i> Foundation &amp; footing digs</li>
+            <li><i data-lucide="chevron-right"></i> Utility trenching</li>
+            <li><i data-lucide="chevron-right"></i> Demolition &amp; haul-off</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="core-card">
+        <div class="core-media">
+          <image-slot id="svc-grading" placeholder="Grading photo" fit="cover"></image-slot>
+          <span class="core-num">02</span>
+          <span class="core-badge"><i data-lucide="mountain"></i></span>
+        </div>
+        <div class="core-body">
+          <h3>Grading</h3>
+          <p>Level, slope, and drain it properly. Laser-guided grading that protects your build from water and settling for years to come.</p>
+          <ul class="core-list">
+            <li><i data-lucide="chevron-right"></i> Rough &amp; finish grading</li>
+            <li><i data-lucide="chevron-right"></i> Drainage &amp; erosion control</li>
+            <li><i data-lucide="chevron-right"></i> Driveway &amp; pad prep</li>
+            <li><i data-lucide="chevron-right"></i> Storm &amp; culvert work</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="core-card">
+        <div class="core-media">
+          <image-slot id="svc-outdoor" placeholder="Outdoor solutions photo" fit="cover"></image-slot>
+          <span class="core-num">03</span>
+          <span class="core-badge"><i data-lucide="trees"></i></span>
+        </div>
+        <div class="core-body">
+          <h3>Outdoor Solutions</h3>
+          <p>The finishing touches that make a property. Hardscapes and structures built to handle Lowcountry weather and last.</p>
+          <ul class="core-list">
+            <li><i data-lucide="chevron-right"></i> Retaining walls</li>
+            <li><i data-lucide="chevron-right"></i> Gravel &amp; paver driveways</li>
+            <li><i data-lucide="chevron-right"></i> Ponds &amp; water features</li>
+            <li><i data-lucide="chevron-right"></i> Land restoration</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+
+    <!-- SUB SERVICES GRID -->
+    <div class="subs">
+      <h3>Specialized Services</h3>
+      <hr class="title-rule">
+      <div class="sub-grid">
+        <div class="sub-card"><div class="sub-media"><image-slot id="sub-1" placeholder="Photo" fit="cover"></image-slot><span class="sub-icon"><i data-lucide="trees"></i></span></div><p>Land Clearing</p></div>
+        <div class="sub-card"><div class="sub-media"><image-slot id="sub-2" placeholder="Photo" fit="cover"></image-slot><span class="sub-icon"><i data-lucide="droplets"></i></span></div><p>Drainage Systems</p></div>
+        <div class="sub-card"><div class="sub-media"><image-slot id="sub-3" placeholder="Photo" fit="cover"></image-slot><span class="sub-icon"><i data-lucide="car-front"></i></span></div><p>Driveways</p></div>
+        <div class="sub-card"><div class="sub-media"><image-slot id="sub-4" placeholder="Photo" fit="cover"></image-slot><span class="sub-icon"><i data-lucide="brick-wall"></i></span></div><p>Retaining Walls</p></div>
+        <div class="sub-card"><div class="sub-media"><image-slot id="sub-5" placeholder="Photo" fit="cover"></image-slot><span class="sub-icon"><i data-lucide="layers"></i></span></div><p>Site Prep</p></div>
+        <div class="sub-card"><div class="sub-media"><image-slot id="sub-6" placeholder="Photo" fit="cover"></image-slot><span class="sub-icon"><i data-lucide="hammer"></i></span></div><p>Demolition</p></div>
+        <div class="sub-card"><div class="sub-media"><image-slot id="sub-7" placeholder="Photo" fit="cover"></image-slot><span class="sub-icon"><i data-lucide="waves"></i></span></div><p>Ponds &amp; Water Features</p></div>
+        <div class="sub-card"><div class="sub-media"><image-slot id="sub-8" placeholder="Photo" fit="cover"></image-slot><span class="sub-icon"><i data-lucide="ruler"></i></span></div><p>Culverts &amp; Pipe</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS BAND ============ -->
+<section class="stats tex tex-dark">
+  <div class="wrap">
+    <div class="stat"><div class="num" data-count="18">0</div><div class="lbl">Years In Business</div></div>
+    <div class="stat"><div class="num" data-count="850" data-suffix="+">0</div><div class="lbl">Projects Completed</div></div>
+    <div class="stat"><div class="num" data-count="1200" data-suffix="+">0</div><div class="lbl">Acres Cleared</div></div>
+    <div class="stat"><div class="num" data-count="100" data-suffix="%">0</div><div class="lbl">Satisfaction Pledge</div></div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="reviews tex tex-dark" id="reviews" data-screen-label="Reviews">
+  <div class="wrap">
+    <div class="center">
+      <p class="eyebrow">Reviews</p>
+      <h2 class="section-title">What Our Clients Say</h2>
+      <hr class="title-rule">
+    </div>
+    <div class="review-stage">
+      <div class="review-track" id="reviewTrack">
+        <article class="review active">
+          <div class="stars"><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i></div>
+          <blockquote>"Palmetto cleared and graded our entire lot ahead of schedule. The crew showed up when they said they would and left the site cleaner than they found it. Best dirt contractor on the Grand Strand."</blockquote>
+          <div class="who">— Dale &amp; Renee Tucker</div>
+          <div class="where">Murrells Inlet, SC</div>
+        </article>
+        <article class="review">
+          <div class="stars"><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i></div>
+          <blockquote>"Our backyard flooded every storm until Palmetto regraded it and put in a real drainage system. Two seasons later and not a single puddle. Honest folks who do honest work."</blockquote>
+          <div class="who">— Marcus Whitfield</div>
+          <div class="where">Conway, SC</div>
+        </article>
+        <article class="review">
+          <div class="stars"><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i></div>
+          <blockquote>"They built a retaining wall and paver driveway that completely transformed the property. Fair price, no surprises, and it looks like it'll outlast the house. Highly recommend."</blockquote>
+          <div class="who">— Sandra Boykin</div>
+          <div class="where">Myrtle Beach, SC</div>
+        </article>
+      </div>
+      <div class="review-dots" id="reviewDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GOOD COMPANY / BADGES ============ -->
+<section class="company" id="company" data-screen-label="About">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Why Palmetto</p>
+      <h2 class="section-title">You're In Good Company</h2>
+      <hr class="title-rule">
+      <p>A family-run crew with deep Lowcountry roots. We bring the equipment, the experience, and the work ethic to every job — big or small.</p>
+    </div>
+    <div class="badge-grid">
+      <div class="badge"><div class="ring"><i data-lucide="shield-check"></i></div><h4>Licensed &amp; Insured</h4><p>Fully bonded, licensed, and insured for your protection on every job.</p></div>
+      <div class="badge"><div class="ring"><i data-lucide="users"></i></div><h4>Family Owned</h4><p>Locally owned and operated — you deal directly with the people doing the work.</p></div>
+      <div class="badge"><div class="ring"><i data-lucide="truck"></i></div><h4>Our Own Fleet</h4><p>No rentals, no delays. We own and maintain our heavy equipment.</p></div>
+      <div class="badge"><div class="ring"><i data-lucide="clock"></i></div><h4>On Time, On Budget</h4><p>Clear estimates and dependable schedules — no surprises, no runaround.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUOTE FORM ============ -->
+<section class="quote tex tex-dark" id="quote" data-screen-label="Quote">
+  <div class="wrap">
+    <div class="quote-info">
+      <p class="eyebrow">Get Started</p>
+      <h2>Request A Free Quote</h2>
+      <p>Tell us about your project and we'll get back to you within one business day with a straight-shooting estimate. No pressure, no obligation.</p>
+      <div class="q-contact">
+        <div class="row"><span class="ic"><i data-lucide="phone"></i></span><div><b>Call Us</b><span class="nb">(843) 555-0199</span></div></div>
+        <div class="row"><span class="ic"><i data-lucide="mail"></i></span><div><b>Email</b><span>info@palmettoconstructionsc.com</span></div></div>
+        <div class="row"><span class="ic"><i data-lucide="map-pin"></i></span><div><b>Visit</b><span>4120 Highway 17 Bypass, Myrtle Beach, SC 29577</span></div></div>
+        <div class="row"><span class="ic"><i data-lucide="clock"></i></span><div><b>Hours</b><span>Monday – Friday, 7am – 6pm</span></div></div>
+      </div>
+    </div>
+
+    <form class="quote-form" id="quoteForm" novalidate>
+      <h3>Tell Us About Your Project</h3>
+      <p class="lead">Fields marked with * are required.</p>
+      <div class="form-success" id="formSuccess"><i data-lucide="check-circle"></i> Thanks! Your request has been received. We'll be in touch within one business day.</div>
+      <div class="grid-2">
+        <div class="field"><label>Full Name *</label><input type="text" name="name" required placeholder="Jane Smith"></div>
+        <div class="field"><label>Phone *</label><input type="tel" name="phone" required placeholder="(843) 555-0123"></div>
+      </div>
+      <div class="grid-2">
+        <div class="field"><label>Email</label><input type="email" name="email" placeholder="you@email.com"></div>
+        <div class="field"><label>Service Needed *</label>
+          <select name="service" required>
+            <option value="">Select a service…</option>
+            <option>Excavation</option>
+            <option>Grading</option>
+            <option>Outdoor Solutions</option>
+            <option>Land Clearing</option>
+            <option>Drainage</option>
+            <option>Driveways</option>
+            <option>Retaining Walls</option>
+            <option>Other / Not Sure</option>
+          </select>
+        </div>
+      </div>
+      <div class="field"><label>Project Details</label><textarea name="message" placeholder="Tell us about your lot, timeline, and what you're trying to accomplish…"></textarea></div>
+      <button type="submit" class="btn btn-brick"><i data-lucide="send"></i> Send My Request</button>
+      <p class="form-note">Prefer to talk? Call <b>(843) 555-0199</b> — we answer the phone.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer tex tex-dark">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="f-brand">
+        <a class="brand" href="#top"><img src="assets/palmetto-logo.png" alt="Palmetto Construction logo"></a>
+        <p class="f-about">Palmetto Construction proudly serves Myrtle Beach and the surrounding Grand Strand — including Conway, Murrells Inlet, Surfside Beach, Socastee, Carolina Forest, North Myrtle Beach, and Little River.</p>
+        <p class="f-lic">Licensed, bonded &amp; insured<br>SC License #: GC-110482</p>
+      </div>
+      <div class="f-col">
+        <h4>Our Services</h4>
+        <ul class="f-list">
+          <li><a href="#services"><i data-lucide="chevron-right"></i> Excavation</a></li>
+          <li><a href="#services"><i data-lucide="chevron-right"></i> Grading</a></li>
+          <li><a href="#services"><i data-lucide="chevron-right"></i> Outdoor Solutions</a></li>
+          <li><a href="#services"><i data-lucide="chevron-right"></i> Land Clearing</a></li>
+          <li><a href="#services"><i data-lucide="chevron-right"></i> Drainage Systems</a></li>
+          <li><a href="#services"><i data-lucide="chevron-right"></i> Retaining Walls</a></li>
+        </ul>
+      </div>
+      <div class="f-col">
+        <h4>Get In Touch</h4>
+        <div class="f-contact">
+          <div class="row"><i data-lucide="phone"></i><div><b>Phone:</b> <span class="nb">(843) 555-0199</span></div></div>
+          <div class="row"><i data-lucide="mail"></i><div><b>Email:</b> info@palmettoconstructionsc.com</div></div>
+          <div class="row"><i data-lucide="map-pin"></i><div><b>Address:</b> 4120 Highway 17 Bypass, Myrtle Beach, SC 29577</div></div>
+          <div class="row"><i data-lucide="clock"></i><div><b>Hours:</b> <span class="nb">Mon–Fri 7am–6pm</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="wrap">
+      <div>© <span id="year"></span> Palmetto Construction. All rights reserved.</div>
+      <div class="made">Excavation · Grading · Outdoor Solutions · Myrtle Beach, SC</div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ SCRIPTS ============ -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="app.js?v=5"></script>
+
+<!-- ============ TWEAKS (React island) ============ -->
+<div id="tweaks-root"></div>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tweaks.jsx"></script>
+</body>
+</html>
